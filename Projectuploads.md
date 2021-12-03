@@ -1,0 +1,3 @@
+- Detected strong forest fires
+- Created dataset
+- Splitted train and test
