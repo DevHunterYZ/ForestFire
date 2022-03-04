@@ -13,3 +13,11 @@ test_path = ".../Normal"
 img = load_img(".../Yangın/1.jpg")
 plt.imshow(img)
 plt.axis("off")
+plt.show()
+
+x = img_to_array(img)
+print(x.shape)
+
+className = glob(train_path + '/*')
+numberOfClass = len(className)
+print("NumberOfClass: ", numberOfClass)
