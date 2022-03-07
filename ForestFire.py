@@ -10,7 +10,7 @@ import pandas as pd
 train_path = ".../Yangın"
 test_path = ".../Normal"
 
-img = load_img(".../Yangın/1.jpg")
+img = load_img(train_path + ".../Yangındataset/1.jpg")
 plt.imshow(img)
 plt.axis("off")
 plt.show()
